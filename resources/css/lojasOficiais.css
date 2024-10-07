@@ -1,0 +1,39 @@
+.brand-button {
+    display: block;
+    border: none;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+    perspective: 1000px;
+
+}
+
+.brand-button img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s, box-shadow 0.3s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+.brand-button:hover img {
+    transform: rotateX(10deg) rotateY(10deg);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+
+}
+
+.brand-button img {
+    display: block;
+    width: auto;
+    height: 150px;
+    max-width: 100%;
+    margin: 0 auto;
+    transition: transform 0.3s, box-shadow 0.3s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    object-fit: cover;
+
+}
